@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  */
 @SpringBootApplication
 @EnableEurekaServer
-public class Application {
+public class EurekaApplication {
     /**
      * 1.添加依赖 spring-cloud-starter-netflix-eureka-server
      * 2.配置 application.yml
@@ -18,7 +18,7 @@ public class Application {
      * @param args
      */
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(EurekaApplication.class, args);
     }
 
 }

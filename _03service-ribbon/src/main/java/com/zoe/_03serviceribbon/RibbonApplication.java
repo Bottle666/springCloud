@@ -20,7 +20,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableEurekaClient
 @EnableDiscoveryClient
 @EnableHystrix
-public class Application {
+public class RibbonApplication {
     /**
      * 一个服务注册中心，eureka server,端口为8761
      * service-hi工程跑了两个实例，端口分别为8762,8763，分别向服务注册中心注册
@@ -35,7 +35,7 @@ public class Application {
      * @param args
      */
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(RibbonApplication.class, args);
     }
 
     @Bean

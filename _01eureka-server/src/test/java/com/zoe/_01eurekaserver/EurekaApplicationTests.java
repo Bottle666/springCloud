@@ -1,4 +1,4 @@
-package com.zoe._02servicehi;
+package com.zoe._01eurekaserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ApplicationTests {
+public class EurekaApplicationTests {
 
     @Test
     public void contextLoads() {
