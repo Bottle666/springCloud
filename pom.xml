@@ -14,9 +14,9 @@
 
     <groupId>com.zoe</groupId>
     <artifactId>springCloud</artifactId>
-    <packaging>war</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <name>springCloud Maven Webapp</name>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <name>springCloud</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -25,10 +25,14 @@
         <relativePath/>
     </parent>
 
-    <!--<modules>-->
-        <!--<module>eureka-server</module>-->
-        <!--<module>service-hi</module>-->
-    <!--</modules>-->
+    <modules>
+        <module>_01eureka-server</module>
+        <module>_02service-client</module>
+        <module>_03service-ribbon</module>
+        <module>_04service-feign</module>
+        <module>_05service-zuul</module>
+
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

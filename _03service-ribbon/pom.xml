@@ -5,14 +5,12 @@
     <parent>
         <groupId>com.zoe</groupId>
         <artifactId>springCloud</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
-    <groupId>com.zoe</groupId>
     <artifactId>_03service-ribbon</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <name>_03service-ribbon</name>
-    <description>Demo project for Spring Boot</description>
 
     <dependencies>
         <dependency>
